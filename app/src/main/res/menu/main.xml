@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bookmarks"
+        android:icon="@drawable/ic_bookmarks"
+        android:title="@string/bookmarks"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account"
+        android:title="@string/google_a_c"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/signout"
+        android:title="logout"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/create"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_create"
+        android:title="@string/post_questions"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_assessment"
+        android:title="@string/progress"
+        app:showAsAction="ifRoom" />
+
+</menu>

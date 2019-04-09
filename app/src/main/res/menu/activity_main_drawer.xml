@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<item android:title="Categories">-->
+        <!--<menu android:id="@+id/categmenu">-->
+            <!--<item-->
+                <!--android:id="@+id/item"-->
+                <!--android:checkable="true"-->
+                <!--android:title="General"-->
+                <!--app:actionViewClass="android.widget.CheckBox" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <item android:title="@string/browse_completed_quizes">
+        <menu>
+            <item android:title="@string/level_1_general" />
+        </menu>
+    </item>
+    <item android:title="@string/categories">
+    </item>
+
+</menu>
