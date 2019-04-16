@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".PostQuestionActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Question" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/exp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Explanation" />
+
+    <RadioGroup
+        android:id="@+id/opt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Option 1"
+            android:actionViewClass="android.widget.TextBox"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Option 2"
+            android:actionViewClass="android.widget.TextBox"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Option 3"
+            android:actionViewClass="android.widget.TextBox"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Option 4"
+            android:actionViewClass="android.widget.TextBox"/>
+
+    </RadioGroup>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:backgroundTint="@color/colorDarkBlue"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
